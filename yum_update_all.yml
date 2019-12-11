@@ -1,0 +1,7 @@
+---
+- name: This is a Yum update all Playbook
+  hosts: all
+  tasks:
+    - name: Yum Update all
+      yum:
+        name: '*'
