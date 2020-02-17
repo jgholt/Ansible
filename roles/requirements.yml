@@ -1,2 +1,4 @@
 ---
 #inital requirements.yml file for Repo structure
+#the following role is to install zabbix
+- src: https://github.com/dj-wasabi/ansible-zabbix-server.git

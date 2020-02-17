@@ -1,0 +1,5 @@
+---
+- name: This is a Role to Install Zabbix
+  hosts: all
+  roles:
+    - role: dj-wasabi.zabbi-agent
